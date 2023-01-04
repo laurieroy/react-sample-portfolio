@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from "./Header.module.css";
 import { navbar } from "../content/navbar";
 
-export default function Header() {
+export function Header() {
   const [mobileNavigation, setMobileNavigation] = useState(false)
   const [windowDimension, setWindowDimension] = useState(null)
 

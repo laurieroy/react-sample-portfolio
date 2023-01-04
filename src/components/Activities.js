@@ -2,7 +2,7 @@ import { useState } from "react";
 import { activities } from "../content/activities";
 import styles from "./Activities.module.css";
 
-const Activities = () => {
+export const Activities = () => {
   const [activeSlide, setActiveSlide] = useState(0);
 
   return (
@@ -41,5 +41,3 @@ const Activities = () => {
     </section>
   );
 };
-
-export default Activities

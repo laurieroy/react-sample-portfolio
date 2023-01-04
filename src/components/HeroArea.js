@@ -5,7 +5,7 @@ export const HeroArea = () => {
     <section className={styles.wrapper}>
       <img src="/assets/profile.png" alt="profile" className={styles.profile} />
       <h1 className="title">Hi, I'm Laurie!</h1>
-      <p className="description">An anspiring web developer looking for a new role i tech</p>
+      <p className="description">An anspiring web developer looking for a new role in tech</p>
       <div className={styles.buttonBox}>
         <button
           className={`${styles.button} ${styles.project}`}
@@ -27,5 +27,5 @@ export const HeroArea = () => {
         </button>
       </div>
     </section> 
-  )
-}
+  );
+};

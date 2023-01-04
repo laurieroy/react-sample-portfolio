@@ -1,4 +1,4 @@
-import styles from "./Projects.modules.css";
+import styles from "./Projects.module.css";
 
 import { projects } from "../content/projects";
 

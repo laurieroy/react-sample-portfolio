@@ -1,6 +1,6 @@
 import styles from "./Contacts.module.css";
 
-const Contacts = () => {
+export const Contacts = () => {
   return (
     <form
       className={styles.wrapper}
@@ -39,5 +39,3 @@ const Contacts = () => {
       </form>
   );
 };
-
-export default Contacts
